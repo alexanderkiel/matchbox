@@ -17,7 +17,7 @@ GET http://matchbox.foo/boot.ipxe.0   // for dnsmasq
 chain ipxe?uuid=${uuid}&mac=${mac:hexhyp}&domain=${domain}&hostname=${hostname}&serial=${serial}
 ```
 
-Client's booted with the `/ipxe.boot` endpoint will introspect and make a request to `/ipxe` with the `uuid`, `mac`, `hostname`, and `serial` value as query arguments.
+Client's booted with the `/boot.ipxe` endpoint will introspect and make a request to `/ipxe` with the `uuid`, `mac`, `hostname`, and `serial` value as query arguments.
 
 ## iPXE
 
